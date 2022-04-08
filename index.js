@@ -15,6 +15,10 @@ app.post('/registro', (req, res) => {
     res.send('recibiendo informacion de registro');
 });
 
+app.post('/login', (req, res) => {
+    res.send('ruta Login');
+});
+
 app.listen(3000, () => {
     console.log('Example app listening on port 3000!');
 });
